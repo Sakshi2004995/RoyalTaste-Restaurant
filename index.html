@@ -37,18 +37,19 @@
 
     </div>
 
-    <!-- ===== NAVBAR ===== -->
+    import { FaBars } from "react-icons/fa";
 
+    function Navbar() {
+    return (
     <header>
+        <nav className="navbar">
+            <div className="container">
 
-        <nav class="navbar">
-
-            <div class="container">
-
-                <div class="logo">
+                <div className="logo">
                     RoyalTaste
                 </div>
-                <ul class="nav-links">
+
+                <ul className="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#menu">Menu</a></li>
@@ -56,19 +57,22 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
 
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div className="hamburger">
+                    <FaBars />
                 </div>
 
-                <a href="#" class="btn">Book Table</a>
+                <a href="#reservation" className="btn">
+                    Book Table
+                </a>
 
             </div>
-
         </nav>
-
     </header>
+    );
+    }
+
+    export default Navbar;
+
     <!-- ===== HERO SECTION ===== -->
 
     <section id="home" class="hero">
@@ -99,6 +103,7 @@
         </div>
 
     </section>
+
     <!-- ================= ABOUT ================= -->
 
     <section id="about" class="about">
@@ -134,6 +139,7 @@
         </div>
 
     </section>
+
     <!-- ================= WHY CHOOSE US ================= -->
 
     <section id="features" class="features">
@@ -208,6 +214,7 @@
         </div>
 
     </section>
+    
     <!-- ================= MENU ================= -->
 
     <section id="menu" class="menu">

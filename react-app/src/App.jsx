@@ -7,10 +7,14 @@ import Gallery from "./components/Gallery";
 import Reservation from "./components/Reservation";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
+      <Loader />
+
       <Navbar />
       <Hero />
       <About />
@@ -20,6 +24,8 @@ function App() {
       <Reservation />
       <Contact />
       <Footer />
+
+      <ScrollToTop />
     </>
   );
 }

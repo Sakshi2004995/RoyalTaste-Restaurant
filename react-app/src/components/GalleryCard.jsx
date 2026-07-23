@@ -1,9 +1,9 @@
-function GalleryCard({ item }) {
+function GalleryCard({ image, title, onClick }) {
   return (
-    <div className="gallery-item">
+    <div className="gallery-item" onClick={onClick}>
       <img
-        src={item.image}
-        alt={item.title}
+        src={image}
+        alt={title}
         className="gallery-img"
       />
     </div>
