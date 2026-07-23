@@ -5,6 +5,8 @@ import Features from "./components/Features";
 import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
 import Reservation from "./components/Reservation";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Menu />
       <Gallery />
       <Reservation />
+      <Contact />
+      <Footer />
     </>
   );
 }

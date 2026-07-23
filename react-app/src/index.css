@@ -61,9 +61,10 @@ header {
 
 /* Sticky Navbar */
 
-.navbar.sticky{
-    background:rgba(15,23,42,.97);
-    box-shadow:0 15px 35px rgba(0,0,0,.35);
+.navbar.sticky {
+  background: #111;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
 
 
